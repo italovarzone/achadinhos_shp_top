@@ -30,7 +30,7 @@ export const PRODUCTS: Product[] = [
     off: "",
     url: "https://s.shopee.com.br/50Z8YNMmiJ",
     image: "/images/celimax-retinal-shot.png",
-    clicks: 1284,
+    clicks: 456,
   },
   {
     id: "vedatudo-spray-impermeabilizante",
@@ -39,7 +39,16 @@ export const PRODUCTS: Product[] = [
     off: "",
     url: "https://s.shopee.com.br/905HQxSuHG",
     image: "/images/vedatudo-spray-impermeabilizante.png",
-    clicks: 0,
+    clicks: 234,
+  },
+  {
+    id: "adesivo-detox-pes",
+    category: "Beleza",
+    title: "Adesivo Detox Para os Pés Kit 10 a 50 Foot Patch Natural Relaxamento Bem Estar Uso Noturno Pés Cansados",
+    off: "",
+    url: "https://s.shopee.com.br/5q8FgN1GSO",
+    image: "/images/adesivo-detox-pes.png",
+    clicks: 287,
   },
 ];
 
