@@ -32,10 +32,19 @@ export const PRODUCTS: Product[] = [
     image: "/images/celimax-retinal-shot.png",
     clicks: 1284,
   },
+  {
+    id: "vedatudo-spray-impermeabilizante",
+    category: "Casa",
+    title: "Spray Vedatudo 400ml Impermeabilizante Emborrachado Dryko",
+    off: "",
+    url: "https://s.shopee.com.br/905HQxSuHG",
+    image: "/images/vedatudo-spray-impermeabilizante.png",
+    clicks: 0,
+  },
 ];
 
 /** Ordem de exibição por padrão: "Maior desconto" ou "Mais clicados". */
 export const SORT: "Maior desconto" | "Mais clicados" = "Maior desconto";
 
 /** Categorias do filtro. Precisam bater com `category` dos produtos. */
-export const CATS = ["Tudo", "Promoções do dia", "Beleza"];
+export const CATS = ["Tudo", "Promoções do dia", "Beleza", "Casa"];
